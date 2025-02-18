@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+		
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RatkinMerchant"]</xpath>
+		<value>
+			<weaponTags>
+			<li>RatkinSoviet</li>
+			<li>RatkinSoviet_Dvustvolka</li>
+			</weaponTags>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RatkinCombatant"]</xpath>
+		<value>
+			<weaponTags>
+			<li>RatkinSoviet_Ppsh41</li>
+			<li>RatkinSoviet_Dvustvolka</li>
+			</weaponTags>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RatkinVanguard"]</xpath>
+		<value>
+			<weaponTags>
+			<li>RatkinSoviet</li>
+			<li>RatkinSoviet_Dvustvolka</li>
+			</weaponTags>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RatkinMurderer"]</xpath>
+		<value>
+			<weaponTags>
+			<li>RatkinSoviet</li>
+			<li>RatkinSoviet_Dvustvolka</li>
+			</weaponTags>
+			<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>6</min>
+					<max>10</max>
+				</primaryMagazineCount>
+			</li>
+			</modExtensions>
+		</value>
+	</Operation>
+		
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RatkinPettyThief"]</xpath>
+		<value>
+			<weaponTags>
+			<li>RatkinSoviet</li>
+			<li>RatkinSoviet_Dvustvolka</li>
+			</weaponTags>
+			<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>6</min>
+					<max>10</max>
+				</primaryMagazineCount>
+			</li>
+			</modExtensions>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RatkinSoldier"]</xpath>
+		<value>
+			<weaponTags>
+			<li>RatkinSoviet_Ppsh41</li>
+			</weaponTags>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RatkinEliteGuardener"]</xpath>
+		<value>
+			<weaponTags>
+			<li>RatkinSoviet_Ppsh41</li>
+			</weaponTags>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RatkinSubject"]/apparelTags</xpath>
+		<value>
+			<li>RK_Apparel</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[defName="RatkinSubject"]</xpath>
+		<value>
+			<apparelMoney>
+				<min>800</min>
+				<max>8000</max>
+			</apparelMoney>
+		</value>
+	</Operation>
+	
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_Ppsh41_HMC"]/weaponTags</xpath>
+		<value>
+			<li>RatkinSoviet_Ppsh41</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_TT33_HMC"]/weaponTags</xpath>
+		<value>
+			<li>RatkinSoviet</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="HMC_Gun_Dvustvolka"]/weaponTags</xpath>
+		<value>
+			<li>RatkinSoviet_Dvustvolka</li>
+		</value>
+	</Operation>
+		
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_AK74M_HMC"]/weaponTags</xpath>
+		<value>
+			<li>RatkinSovietAK</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_AKS74U"]/weaponTags</xpath>
+		<value>
+			<li>RatkinSovietAK</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gun_RPK74M_HMC"]/weaponTags</xpath>
+		<value>
+			<li>RatkinSovietAK</li>
+		</value>
+	</Operation>
+
+
+	
+
+</Patch>

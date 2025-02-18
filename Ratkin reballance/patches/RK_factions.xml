@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/FactionDef[@Name="RatkinFactionBase"]/pawnGroupMakers</xpath>
+		<value>
+			<li>
+				<!-- Ratkin Pyro-->
+				<kindDef>Combat</kindDef>
+				<commonality>30</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<RatkinTroops>15</RatkinTroops>
+					<RatkinDemonMan>5</RatkinDemonMan>
+					<RatkinEliteSoldier>5</RatkinEliteSoldier>
+					<RatkinSoldier>30</RatkinSoldier>
+					<RatkinPyro>25</RatkinPyro>
+				</options>
+			</li>
+			<li>
+				<!-- Ratkin merc-->
+				<kindDef>Combat</kindDef>
+				<commonality>100</commonality>
+				<options>
+					<RatkinMercenaryLight>30</RatkinMercenaryLight>
+					<RatkinMercenary>20</RatkinMercenary>
+					<RatkinSoldier>15</RatkinSoldier>
+				</options>
+			</li>
+			<li>
+				<!-- Ratkin army-->
+				<kindDef>Combat</kindDef>
+				<commonality>70</commonality>
+				<options>
+					<RatkinTroops>30</RatkinTroops>
+					<RatkinDemonMan>5</RatkinDemonMan>
+					<RatkinSoldier>20</RatkinSoldier>
+				</options>
+			</li>
+		</value>
+	</Operation> 
+
+</Patch>
+	
