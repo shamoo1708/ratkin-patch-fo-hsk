@@ -118,7 +118,7 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="HMC_Gun_Dvustvolka"]/weaponTags</xpath>
+		<xpath>Defs/ThingDef[defName="HMC_Gun_Dvustvolka" or defName="Gun_Dvustvolka"]/weaponTags</xpath>
 		<value>
 			<li>RatkinSoviet_Dvustvolka</li>
 		</value>
